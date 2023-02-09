@@ -5,6 +5,7 @@ This projetc is a Spring Boot API for an ecommerce Web site.
 Requirements
 
 - Install IntelliJ IDEA or any other integrated development environment (IDE)
+- Install Java 17
 - Install PgAdmin create a database "dbecommerce" then adapt the application.properties file to your own information.
 - Import the project and download the dependencies if it's not done automaticly 
 - Run the main class 
