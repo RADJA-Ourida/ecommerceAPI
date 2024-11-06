@@ -27,6 +27,7 @@ public class CatalogService {
     }
 
     public Stock addProductTOStock(Integer idProduct, Integer qntStock) {
+        Integer x = 10;
         Stock stock1 = stockRepository.findStockByProductId(idProduct);
         if (stock1 != null) {
             stock1.setQuantityStock(stock1.getQuantityStock() + qntStock);
