@@ -30,7 +30,6 @@ public class CatalogService {
         Integer x = 10;
         Integer y = 100;
         System.out.println("Y::"+y);
-
         Stock stock1 = stockRepository.findStockByProductId(idProduct);
         if (stock1 != null) {
             stock1.setQuantityStock(stock1.getQuantityStock() + qntStock);
